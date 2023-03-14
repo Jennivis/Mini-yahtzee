@@ -23,7 +23,7 @@ export default function App() {
             options={{
               tabBarStyle: { display: "none" },
               tabBarIcon: () => (
-                <MaterialCommunityIcons name="home-account" size="30" />
+                <MaterialCommunityIcons name="home-account" size={30} />
               ),
               tabBarActiveTintColor: '#C16F95',
               tabBarInActiveTintColor: 'gray'
@@ -32,7 +32,7 @@ export default function App() {
           <Tab.Screen name="Gameboard" component={Gameboard}
             options={{
             tabBarIcon: () => (
-              <MaterialCommunityIcons name="dice-multiple" size="30" />
+              <MaterialCommunityIcons name="dice-multiple" size={30} />
             ),
             tabBarActiveTintColor: '#C16F95',
             tabBarInActiveTintColor: 'gray'
@@ -41,7 +41,7 @@ export default function App() {
           <Tab.Screen name="Scoreboard" component={Scoreboard}
             options={{
             tabBarIcon: () => (
-              <MaterialCommunityIcons name="format-list-numbered" size="30" />
+              <MaterialCommunityIcons name="format-list-numbered" size={30} />
             ),
             tabBarActiveTintColor: '#C16F95',
             tabBarInActiveTintColor: 'gray'
